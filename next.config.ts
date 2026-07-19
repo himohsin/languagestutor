@@ -15,6 +15,16 @@ const nextConfig: NextConfig = {
 
   async redirects() {
     return [
+      {
+        source: "/blog/new-website-course-and-product-updates-april-2024",
+        destination: "/blog/online-pashto-classes-for-kids-adults-and-ladies",
+        permanent: true, // 301 Redirect
+      },
+      {
+        source: "/ar/blog/new-website-course-and-product-updates-april-2024",
+        destination: "/ar/blog/online-pashto-classes-for-kids-adults-and-ladies",
+        permanent: true, // 301 Redirect
+      },
        {
         source: "/learn-tafseer-ul-quran/",
         destination: "/courses/quran-reading-and-tajweed",
